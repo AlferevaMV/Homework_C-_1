@@ -3,3 +3,15 @@
 //-3 -> нет
 //7 -> нет
 
+Console.Write("Вести число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number%2==0)
+{
+    Console.Write("Твое число является четным");
+}
+else
+{
+    Console.Write("Твое число НЕ является четным");
+    
+}
